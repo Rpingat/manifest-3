@@ -9,7 +9,7 @@ Getting Started
 To initialize your local repository, use a command like this:
 
 ```bash
- repo init -u https://github.com/ThunderOS/manifest.git -b storm-8.1
+ repo init -u https://github.com/rpingat/manifest-3.git -b storm-8.1
 ```
 
 Then to sync up:

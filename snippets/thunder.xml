@@ -28,26 +28,26 @@
   <!--Device &&  Sepolicy -->
   <project path="device/thunder/sepolicy" name="device_thunder_sepolicy" remote="thunder" />
   <project path="device/qcom/common" name="device_qcom_common" remote="thunder" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="thunder" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="gzosp" />
 
   <!-- Externals -->
-  <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="thunder" />
-  <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="thunder" />
-  <project path="external/exfat" name="external_exfat" remote="thunder" />
-  <project path="external/fuse" name="external_fuse" remote="thunder" />
-  <project path="external/htop" name="external_htop" remote="thunder" />
-  <project path="external/json-c" name="external_json-c" remote="thunder" />
-  <project path="external/libncurses" name="external_libncurses" remote="thunder" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="thunder" />
-  <project path="external/mksh" name="external_mksh" groups="pdk" remote="thunder" />
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="thunder" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="thunder" />
-  <project path="external/nano" name="external_nano" remote="thunder" />
-  <project path="external/powertop" name="external_powertop" remote="thunder" />
-  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="thunder" />
+  <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
+  <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
+  <project path="external/exfat" name="external_exfat" remote="gzosp" />
+  <project path="external/fuse" name="external_fuse" remote="gzosp" />
+  <project path="external/htop" name="external_htop" remote="gzosp" />
+  <project path="external/json-c" name="external_json-c" remote="gzosp" />
+  <project path="external/libncurses" name="external_libncurses" remote="gzosp" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
+  <project path="external/nano" name="external_nano" remote="gzosp" />
+  <project path="external/powertop" name="external_powertop" remote="gzosp" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="thunder" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="thunder" />
-  <project path="external/toybox" name="external_toybox" groups="pdk" remote="thunder" />
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="thunder" />
 
   <!-- Frameworks -->
@@ -68,7 +68,7 @@
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="thunder" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="thunder" revision="storm-8.1-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="thunder" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="thunder" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="gzosp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="thunder" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="thunder" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="thunder" />
@@ -82,7 +82,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="thunder" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="thunder" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="thunder" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="thunder" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="gzosp" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="thunder" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="thunder" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="thunder" />
@@ -114,10 +114,10 @@
 
   <!-- Vendors -->
   <project path="vendor/thunder" name="vendor_thunder" remote="thunder" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="thunder" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="thundee" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="thunder" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="thunder" >
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="gzosp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="gzosp" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="gzosp" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 
